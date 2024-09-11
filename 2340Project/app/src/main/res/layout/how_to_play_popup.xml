@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- How to Play title and Intro: -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to Dungeon Crawler!"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In this fast-paced game, you are tasked with successfully navigating out of a dangerous dungeon before your health runs out! You must defeat enemies, collect weapons, and move quickly to escape in time!"
+        android:paddingTop="8dp"/>
+
+    <!-- How to Play Instructions -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to Play Instructions:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <!-- How to Play Instructions -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Start the game and select your player name, avatar, and difficulty from the options from the prompts provided."
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Begin the game and move your avatar left, right, up, and down using the corresponding arrows on your keyboard."
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. While playing, your avatar can navigate to different rooms by reaching an exit door. To win, reach the exit of the last room in the dungeon before your health runs out!"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Each room will have different enemies and weapons. You can defeat enemies with a weapon. Collecting weapons earns your avatar health points. Colliding with enemies without any defense decreases your avatar’s health points."
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Pause the game at any time using the pause button."
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. When the game ends, view your best attempts and wins on the leaderboard. Play again by clicking the restart button or exit the game. "
+        android:paddingTop="8dp"/>
+
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"/>
+
+</LinearLayout>
